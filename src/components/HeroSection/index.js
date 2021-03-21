@@ -11,7 +11,6 @@ import {
     HeroBtnWrapper, 
     ArrowForward,
     ArrowRight
-
 } from './heroelements';
 
 const HeroSection = () => {
