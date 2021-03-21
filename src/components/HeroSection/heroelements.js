@@ -22,8 +22,8 @@ export const HeroContainer = styled.div `
             180deg, 
             rgba(0,0,0,0.2) 0%
             rgba(0,0,0,0.6) 100%),
-        linear-gradient(180deg, rgba(0,0,0,0.2) 0%), transparent 100%);
-        z-index:2;
+        linear-gradient(180deg, rgba(0,0,0,0.2) 0%, transparent 100%);
+        z-index:1;
 
     }
 
@@ -74,7 +74,7 @@ export const HeroH1 = styled.h1 `
 `
 
 export const HeroP = styled.p `
-    margin.top: 24px;
+    margin-top: 24px;
     color: #fff;
     font-size: 24px;
     text-align: center;
